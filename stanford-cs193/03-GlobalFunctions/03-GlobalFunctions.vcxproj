@@ -10,13 +10,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <CudaCompile Include="test.cu" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F8CA6F79-03E8-35EB-F647-5DA2F28D9BE2}</ProjectGuid>
-    <RootNamespace>Main</RootNamespace>
-    <ProjectName>00-Prerequisites</ProjectName>
+    <ProjectGuid>{8DF61958-5345-E39C-E690-FCA87DA0CB21}</ProjectGuid>
+    <RootNamespace>_03_GlobalFunctions</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -80,6 +76,9 @@
       <TargetMachinePlatform>64</TargetMachinePlatform>
     </CudaCompile>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <CudaCompile Include="GlobalFunctions.cu" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 13.2.targets" />

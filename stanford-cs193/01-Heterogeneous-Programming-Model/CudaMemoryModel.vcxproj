@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{067D4AE8-65E6-BC38-98CB-6D754CEE201C}</ProjectGuid>
     <RootNamespace>CudaMemoryModel</RootNamespace>
+    <ProjectName>01-HeterogeneousProgrammingModel</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

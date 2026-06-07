@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "00-Prerequisites\Test.vcxproj", "{F8CA6F79-03E8-35EB-F647-5DA2F28D9BE2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "00-Prerequisites", "00-Prerequisites\Test.vcxproj", "{F8CA6F79-03E8-35EB-F647-5DA2F28D9BE2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Prerequisites", "00-Prerequisites", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Heterogeneous-Programming-Model", "01-Heterogeneous-Programming-Model", "{7B57D609-400C-43E4-91AC-83CB86B914FF}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaMemoryModel", "01-Heterogeneous-Programming-Model\CudaMemoryModel.vcxproj", "{067D4AE8-65E6-BC38-98CB-6D754CEE201C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-HelloWorld", "02-HelloWorld", "{BA76226C-114C-48A2-A111-359D5C1F5FF2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-HeterogeneousProgrammingModel", "01-Heterogeneous-Programming-Model\CudaMemoryModel.vcxproj", "{067D4AE8-65E6-BC38-98CB-6D754CEE201C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02-HelloWorld", "02-HelloWorld\02-HelloWorld.vcxproj", "{B76D5CAC-C0C5-BAF8-5523-9AC15DE91D42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03-GlobalFunctions", "03-GlobalFunctions\03-GlobalFunctions.vcxproj", "{8DF61958-5345-E39C-E690-FCA87DA0CB21}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04-MultidimensionalKernelLaunch", "04-MultidimensionalKernelLaunch\04-MultidimensionalKernelLaunch.vcxproj", "{96CC353B-D59C-B37A-5348-FF5843C43B8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05-DeviceFunctions", "05-DeviceFunctions\05-DeviceFunctions.vcxproj", "{B87F0F7F-3553-B5A5-B0FD-87BAA06BF0D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +33,21 @@ Global
 		{B76D5CAC-C0C5-BAF8-5523-9AC15DE91D42}.Debug|x64.Build.0 = Debug|x64
 		{B76D5CAC-C0C5-BAF8-5523-9AC15DE91D42}.Release|x64.ActiveCfg = Release|x64
 		{B76D5CAC-C0C5-BAF8-5523-9AC15DE91D42}.Release|x64.Build.0 = Release|x64
+		{8DF61958-5345-E39C-E690-FCA87DA0CB21}.Debug|x64.ActiveCfg = Debug|x64
+		{8DF61958-5345-E39C-E690-FCA87DA0CB21}.Debug|x64.Build.0 = Debug|x64
+		{8DF61958-5345-E39C-E690-FCA87DA0CB21}.Release|x64.ActiveCfg = Release|x64
+		{8DF61958-5345-E39C-E690-FCA87DA0CB21}.Release|x64.Build.0 = Release|x64
+		{96CC353B-D59C-B37A-5348-FF5843C43B8A}.Debug|x64.ActiveCfg = Debug|x64
+		{96CC353B-D59C-B37A-5348-FF5843C43B8A}.Debug|x64.Build.0 = Debug|x64
+		{96CC353B-D59C-B37A-5348-FF5843C43B8A}.Release|x64.ActiveCfg = Release|x64
+		{96CC353B-D59C-B37A-5348-FF5843C43B8A}.Release|x64.Build.0 = Release|x64
+		{B87F0F7F-3553-B5A5-B0FD-87BAA06BF0D2}.Debug|x64.ActiveCfg = Debug|x64
+		{B87F0F7F-3553-B5A5-B0FD-87BAA06BF0D2}.Debug|x64.Build.0 = Debug|x64
+		{B87F0F7F-3553-B5A5-B0FD-87BAA06BF0D2}.Release|x64.ActiveCfg = Release|x64
+		{B87F0F7F-3553-B5A5-B0FD-87BAA06BF0D2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F8CA6F79-03E8-35EB-F647-5DA2F28D9BE2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{067D4AE8-65E6-BC38-98CB-6D754CEE201C} = {7B57D609-400C-43E4-91AC-83CB86B914FF}
-		{B76D5CAC-C0C5-BAF8-5523-9AC15DE91D42} = {BA76226C-114C-48A2-A111-359D5C1F5FF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CED8A155-8266-43BA-9A42-5A4F43D66676}
