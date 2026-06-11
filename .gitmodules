@@ -1,0 +1,3 @@
+[submodule "Deep-Learning/External/Eigen"]
+	path = Deep-Learning/External/Eigen
+	url = https://github.com/PX4/eigen
